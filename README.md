@@ -1,17 +1,32 @@
-# @unction/{{NAME}}
+# @unction/onlyKeys
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed => mixed
+> ArrayType<KeyType> => KeyedEnumerable => KeyedEnumerable
 
-An example function.
+Reduces the keyed enumerable to an object with only the keys provided.
 
 ``` javascript
-{{NAME}}(1) // 1
+onlyKeys(
+  ["alpha", "beta", "delta"]
+)(
+  {
+    feta: "0",
+    alpha: "1",
+    beta: "2",
+    delta: "3",
+  }
+)
+
+// {
+//   alpha: "1",
+//   beta: "2",
+//   delta: "3",
+// }
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/onlyKeys.svg?maxAge=2592000&style=flat-square
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/onlyKeys.svg?maxAge=2592000&style=flat-square
