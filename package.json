@@ -35,13 +35,13 @@
     "ci": "npm run test"
   },
   "devDependencies": {
-    "@babel/cli": "7.2.3",
-    "@babel/core": "7.3.4",
-    "@babel/plugin-proposal-object-rest-spread": "7.3.4",
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
-    "@babel/preset-env": "7.3.4",
+    "@babel/preset-env": "7.4.5",
     "@babel/preset-typescript": "7.3.3",
-    "@babel/register": "7.4.0",
+    "@babel/register": "7.4.4",
     "babel-eslint": "10.0.1",
     "babel-jest": "23.0.0",
     "babel-plugin-annotate-console-log": "1.0.0",
@@ -58,11 +58,11 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/fresh": "7.0.0",
-    "@unction/get": "1.0.0",
-    "@unction/mergeright": "6.0.0",
-    "@unction/objectfrom": "1.0.0",
-    "@unction/reducevalues": "7.0.0"
+    "@unction/fresh": "8.5.0",
+    "@unction/get": "2.5.0",
+    "@unction/mergeright": "7.5.0",
+    "@unction/objectfrom": "1.5.0",
+    "@unction/reducevalues": "8.5.0"
   },
   "module": "index.js",
   "browser": "transpiled/browser.js",
