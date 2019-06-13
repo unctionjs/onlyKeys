@@ -1,6 +1,6 @@
 {
   "name": "@unction/onlykeys",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Reduces the keyed enumerable to an object with only the keys provided",
   "keywords": [
     "unction",
