@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ArrayType<KeyType> => KeyedEnumerable => KeyedEnumerable
+> ListType<A> => KeyedEnumerableType<B, A> => KeyedEnumerableType<B, A>
 
 Reduces the keyed enumerable to an object with only the keys provided.
 
