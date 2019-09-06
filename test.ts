@@ -1,6 +1,6 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined */
 
-import onlyKeys from "./"
+import onlyKeys from "./index.ts"
 
 test("onlyKeys with present keys", () => {
   expect(onlyKeys(["alpha", "beta", "delta"])({
