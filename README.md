@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ListType<A> => KeyedEnumerableType<B, A> => KeyedEnumerableType<B, A>
+> Array<A> | Set<A> => Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string => Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string
 
 Reduces the keyed enumerable to an object with only the keys provided.
 
